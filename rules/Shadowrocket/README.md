@@ -1,0 +1,1 @@
+参考：https://github.com/wlxuf/Shadowrocket/blob/main/lazy_group.conf

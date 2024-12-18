@@ -1,0 +1,345 @@
+proxy-groups:
+  - name: xiuxiu
+    include-all: true
+    type: select
+    proxies:
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+      - DIRECT
+
+  - name: Apple
+    type: select
+    proxies:
+      - DIRECT
+      - xiuxiu
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+  - name: BiliBili
+    type: select
+    proxies:
+      - DIRECT
+      - xiuxiu
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+  - name: Netflix
+    type: select
+    proxies:
+      - xiuxiu
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+  - name: Disney+
+    type: select
+    proxies:
+      - xiuxiu
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+  - name: HBO
+    type: select
+    proxies:
+      - xiuxiu
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+  - name: TikTok
+    type: select
+    proxies:
+      - xiuxiu
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+  - name: Spotify
+    type: select
+    proxies:
+      - xiuxiu
+      - DIRECT
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+
+  - name: GlobalMedia
+    type: select
+    proxies:
+      - xiuxiu
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+  - name: OpenAI
+    type: select
+    proxies:
+      - xiuxiu
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+  - name: Google
+    type: select
+    proxies:
+      - xiuxiu
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+  - name: Microsoft
+    type: select
+    proxies:
+      - DIRECT
+      - xiuxiu
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+  - name: Steam
+    type: select
+    proxies:
+      - DIRECT
+      - xiuxiu
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+  - name: Emby
+    include-all: true
+    type: select
+    proxies:
+      - DIRECT
+      - xiuxiu
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+  - name: Telegram
+    type: select
+    proxies:
+      - xiuxiu
+      - 🇭🇰 Hong Kong
+      - 🇲🇴 Mocao
+      - 🇨🇳 Taiwan
+      - 🇸🇬 Singapore
+      - 🇯🇵 Japan
+      - 🇺🇸 United States
+
+  - name: 🇭🇰 Hong Kong
+    include-all: true
+    filter: (?i)🇭🇰|香港|HK|Hong Kong|HongKong
+    type: select
+
+  - name: 🇲🇴 Mocao
+    include-all: true
+    filter: (?i)🇲🇴|澳门|MO|Mocao|Mo cao
+    type: select
+
+  - name: 🇨🇳 Taiwan
+    include-all: true
+    filter: (?i)🇹🇼|台湾|TW|新北|彰化|Taiwan
+    type: select
+
+  - name: 🇸🇬 Singapore
+    include-all: true
+    filter: (?i)🇸🇬|新加坡|SG|狮城|Singapore
+    type: select
+
+  - name: 🇯🇵 Japan
+    include-all: true
+    filter: (?i)🇯🇵|日本|JP|东京|大阪|埼玉|Japan
+    type: select
+
+
+  - name: 🇺🇸 United States
+    include-all: true
+    filter: (?i)🇺🇸|美国|US|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|UnitedStates|United States
+    type: select
+
+rule-providers:
+  AD:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt"
+    interval: 86400
+    path: ./ruleset/AWAvenue-Ads-Rule.txt
+
+  Apple:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Apple_Classical_No_Resolve.yaml
+
+  BiliBili:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/BiliBili_No_Resolve.yaml
+
+  Netflix:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Netflix_No_Resolve.yaml
+
+  Disney+:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Disney_No_Resolve.yaml
+
+  HBO:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/HBO_No_Resolve.yaml
+    
+  Spotify:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Spotify/Spotify_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Spotify_No_Resolve.yaml
+
+  TikTok:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/TikTok_No_Resolve.yaml
+
+  GlobalMedia:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/GlobalMedia_Classical_No_Resolve.yaml
+
+  OpenAI:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/OpenAI_No_Resolve.yaml
+
+  Google:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Google_No_Resolve.yaml
+
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Microsoft_No_Resolve.yaml
+
+  Steam:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Steam_No_Resolve.yaml
+
+  Emby:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/xi11-ov/xi/refs/heads/x/Emby/Clash/Emby_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Emby_No_Resolve.yaml
+
+  Telegram:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Telegram_No_Resolve.yaml
+
+  Lan:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/Lan_No_Resolve.yaml
+
+  ChinaMax:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical_No_IPv6_No_Resolve.yaml"
+    interval: 86400
+    path: ./ruleset/ChinaMax_Classical_No_IPv6_No_Resolve.yaml
+
+rules:
+  - RULE-SET,AD,REJECT
+  - RULE-SET,Apple,Apple
+  - RULE-SET,BiliBili,BiliBili
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,Disney+,Disney+
+  - RULE-SET,HBO,HBO
+  - RULE-SET,TikTok,TikTok
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,GlobalMedia,GlobalMedia
+  - RULE-SET,OpenAI,OpenAI
+  - RULE-SET,Google,Google
+  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,Steam,Steam
+  - RULE-SET,Emby,Emby
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,Lan,DIRECT
+  - RULE-SET,ChinaMax,DIRECT
+  - MATCH,xiuxiu
